@@ -1,1 +1,4 @@
 # cpp-review-9
+
+Software testing determines if software works as expected, need to test different cases of functions/loops/conditionals/etc. (don't need to test every integer, just 1 for each case), test in small pieces so parts of code can be diagnosed individually (don't have to go through all of them to solve issue), write code in well defined units (functions/classes) & test them in isolation (called unit testing), can also do informal testing as you go (ex. print statements), put tests/expected answers in functions, assert(bool) asserts that boolean is true/aborts program with error if not (use on test results), can use 3rd person unit testing framework, integration testing involves bringing units into program after unit testing/retesting to make sure they're integrated properly (use spot checks on integrated behavior for now)
+Code coverage
